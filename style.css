@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@300&family=Righteous&family=Syne+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(19, 18, 18, 0.4);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.logo {
+    height: 65px;
+    margin-top: 0px;
+}
+  
+.header-left {
+    float: left;
+}
+
+.header-left a {
+    line-height: 70px;
+    font-weight: bold;
+    padding: 0 2px;
+    font-size: 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+  
+.header-right a {
+    line-height: 70px;
+    font-weight: bold;
+    padding: 0 30px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.bar{
+    color: #ffffff;
+    line-height: 45px;
+    font-size: larger;
+    font-weight: lighter;
+    display: none;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+#content1 {
+    padding: 250px 0 50px 0;
+    background-image: url(https://media.istockphoto.com/vectors/abstract-technology-background-futuristic-digital-innovation-wide-vector-id1284811744?k=20&m=1284811744&s=170667a&w=0&h=O86yQbCZQL5QFkaGfD-LHrhYclfuG6j2de3sdgh1S-c=);
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+
+.btn-wrapper {
+    text-align: right;
+    margin: 5% 5% 5% 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: rgb(201, 60, 166);
+    opacity: 0.9;
+    border-radius: 4px;
+    text-align: center;
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+
+.atas {
+    padding: 15px 40px;
+    background-color: #d6449e;
+    cursor: pointer;
+    box-shadow: 7px 7px #b82aa5;
+}
+  
+.atas:active {
+    position: relative;
+    top: 7px;
+    left: 7px;
+    box-shadow: none;
+}
+
+#content1 h5 {
+    font-family: 'Syne Mono', monospace;
+    font-size: 25px;
+    padding: 0 5%;
+    margin: 0;
+}
+
+#content1 h1 {
+    font-size: 55px;
+    letter-spacing: 5px;
+    font-family: 'Righteous', cursive;
+    padding: 0 5%;
+    margin: 10px 0;
+}
+
+#content1 p {
+    opacity: 0.7;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 5%;
+    margin: 0;
+}
+
+#content1 h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    padding: 0 5%;
+    margin: 15px 0;
+}
+
+#content2 {
+    padding: 50px 0;
+    background-image:linear-gradient(rgb(22, 30, 68), rgb(0, 0, 0));
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+#content3 {
+    background-image: url(https://wallpapercave.com/wp/qNAWsis.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+#content4 {
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    padding: 150px 0;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 2000px;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+    color: #b5d1d3;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container h2{
+    font-size: 2.4rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.menu {
+    align-items: center;
+    padding: 2rem 5%;
+    justify-content: center;
+}
+
+.menutambahan {
+    float: left;
+    width: 32%;
+    height: 650px;
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
+.apk {
+    height: auto;
+    background: #fff;
+    box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.034), 8.7px 8.7px 6.9px rgba(0, 0, 0, 0.049), 17.7px 17.7px 14.2px rgba(0, 0, 0, 0.061), 36.5px 36.5px 29.2px rgba(0, 0, 0, 0.076), 100px 100px 80px rgba(0, 0, 0, 0.11);
+}
+
+.apk .img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.details {
+    padding: 5px;
+    margin: 0;
+}
+
+.name h4 {
+    align-items: center;
+    padding: 5% 0 0 5%;
+    color: #212529;
+    font-size: 1.7rem;
+    font-family: 'Syne Mono', monospace;
+}
+
+.pro {
+    padding: 0 0 15px 0;
+}
+
+.pro p{
+    font-size: 1.1rem;
+    color: #666262;
+}
+
+footer {
+    border-top: 1px solid #ecf0f1;
+    padding: 3rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    color: #7f8c8d;
+    justify-content: flex-start;
+    line-height: 2rem;
+}
+
+footer p a {
+    color: rgb(12, 49, 172);
+    padding-left: 50px;
+}

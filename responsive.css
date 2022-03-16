@@ -1,0 +1,266 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    header {
+        height: 60px;
+    }
+      
+    .logo {
+        height: 55px;
+    }
+    
+    .header-left a {
+        line-height: 60px;
+        padding: 0 1px;
+        font-size: 20px;
+    }
+      
+    .header-right {
+        margin-right: 20px;
+    }
+      
+    .header-right a {
+        line-height: 60px;
+        padding: 0 20px;
+    }
+    
+    a {
+        font-size: 15px;
+    }
+    
+    #content1 {
+        padding: 200px 0 40px 0;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        border-radius: 3px;
+    }
+    
+    .atas {
+        padding: 10px 25px;
+        box-shadow: 6px 6px #b82aa5;
+    }
+      
+    .atas:active {
+        top: 6px;
+        left: 6px;
+    }
+    
+    #content1 h5 {
+        font-size: 17px;
+    }
+    
+    #content1 h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        margin: 10px 0;
+    }
+
+    #content1 p {
+        font-size: 15px;
+    }
+    
+    #content1 h3 {
+        font-size: 23px;
+        margin: 15px 0;
+    }
+    
+    #content2 {
+        padding: 35px 0;
+    }
+    
+    #content3 {
+        padding: 90px 0;
+    }
+    
+    #content4 {
+        padding: 80px 0;
+        margin-bottom: 2300px;
+    }
+    
+    .paragraph {
+        font-size: 1.3rem;
+    }
+    
+    .container h2{
+        font-size: 1.8rem;
+        font-weight: 550;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    
+    .menu {
+        padding: 1.5rem 5%;
+    }
+    
+    .menutambahan {
+        width: 50%;
+        height: 680px;
+    }
+    
+    .details {
+        padding: 4px;
+    }
+    
+    .name h4 {
+        font-size: 1.2rem;
+    }
+    
+    .pro {
+        padding: 0 0 10px 0;
+    }
+    
+    .pro p{
+        font-size: 0.9rem;
+    }
+    
+    footer {
+        padding: 3rem 6rem;
+    }
+
+    footer p{
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+    }
+
+    footer p a {
+        padding-left: 40px;
+    }
+}
+  
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    header {
+        height: 50px;
+    }
+      
+    .logo {
+        height: 45px;
+    }
+    
+    .header-left a {
+        line-height: 50px;
+        font-size: 20px;
+    }
+      
+    .header-right {
+        display: none;
+    }
+
+    .bar{
+        display: block;
+        cursor: pointer;
+        float: right;
+        margin-right: 5%;
+        transition: all 0.5s;
+    }
+    
+    a {
+        font-size: 13px;
+    }
+    
+    #content1 {
+        padding: 150px 0 30px 0;
+    }
+    
+    .btn {
+        padding: 7px 15px;
+        border-radius: 2px;
+    }
+    
+    .atas {
+        padding: 8px 20px;
+        box-shadow: 3px 3px #b82aa5;
+    }
+      
+    .atas:active {
+        top: 3px;
+        left: 3px;
+    }
+    
+    #content1 h5 {
+        font-size: 14px;
+    }
+    
+    #content1 h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin: 7px 0;
+    }
+
+    #content1 p {
+        font-size: 12px;
+    }
+    
+    #content1 h3 {
+        font-size: 15px;
+        margin: 8px 0;
+    }
+    
+    #content2 {
+        padding: 25px 0;
+    }
+    
+    #content3 {
+        padding: 60px 0;
+    }
+    
+    #content4 {
+        padding: 50px 0;
+        margin-bottom: 5570px;
+    }
+    
+    .paragraph {
+        font-size: 15px;
+    }
+    
+    .container h2{
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    
+    .menu {
+        padding: 1rem 5%;
+    }
+    
+    .menutambahan {
+        width: 80%;
+        height: 670px;
+        align-self: center;
+    }
+    
+    .details {
+        padding: 4px;
+    }
+    
+    .name h4 {
+        font-size: 18px;
+    }
+    
+    .pro {
+        padding: 0 0 9px 0;
+    }
+    
+    .pro p{
+        font-size: 14px;
+    }
+    
+    footer {
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer p{
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+
+    footer p a {
+        padding-left: 20px;
+    }
+}
